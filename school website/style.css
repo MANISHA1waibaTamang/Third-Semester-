@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+#headerwrap{
+    width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+}
+.logowrap{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(146, 199, 196, 0.603);
+    float: left;
+}
+.logowrap img{
+    width: 255px;
+    height: auto;
+    float: left;
+}
+.banner{
+    width: 1100px;
+    height: 200px;
+    /*background-color: rgba(46, 105, 173, 0.815);*/
+    float: right;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 70px;
+}
+/*.banner img{
+    widows: 30%;
+    width: 650px;
+    height: auto;
+    float: left;
+}*/
+#menu{
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: rgba(169, 199, 226, 0.925);
+    text-align: center;
+}
+#menu ul{
+    display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+}
+#menu ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 20px;
+    height: auto;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu ul li:hover{
+    background-color: rgba(111, 144, 182, 0.993);
+    border-radius: 3px;
+}
+#intro{
+    width: 1600px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 15px;
+}
+#intro h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+#intro img{
+    width: 800px;
+    widows: 30%;
+    margin-top: 50px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+#intro p{
+    float: right;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-right: 30px;
+    padding-top:  15px;
+    word-spacing: 5px;
+}
+#time{
+    width: 1600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 50px;
+    float: left;
+}
+#time h2{
+    text-align: left;
+    color: rgb(19, 18, 18);
+}
+.images{
+    width: 1600px;
+}
+.images img{
+    width: 500px;
+    height: auto;
+}
